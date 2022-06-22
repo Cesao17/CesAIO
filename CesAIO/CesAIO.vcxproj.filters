@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\plugin_sdk\clipper.cpp">
+      <Filter>Dependências Internas\plugin-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugin_sdk\plugin_sdk.cpp">
+      <Filter>Dependências Internas\plugin-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="seraphine.cpp">
+      <Filter>src\modules\seraphine</Filter>
+    </ClCompile>
+    <ClCompile Include="module_example.cpp">
+      <Filter>src\modules\_common\_example</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\plugin_sdk\plugin_sdk.hpp">
+      <Filter>Dependências Internas\plugin-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugin_sdk\clipper.h">
+      <Filter>Dependências Internas\plugin-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugin_sdk\cpplinq.h">
+      <Filter>Dependências Internas\plugin-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="seraphine.hpp">
+      <Filter>src\modules\seraphine</Filter>
+    </ClInclude>
+    <ClInclude Include="module_base.hpp">
+      <Filter>src\modules\_common</Filter>
+    </ClInclude>
+    <ClInclude Include="module_example.hpp">
+      <Filter>src\modules\_common\_example</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Dependências Internas">
+      <UniqueIdentifier>{b6d423b6-b8c7-4462-9945-ae78a51908e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependências Internas\plugin-sdk">
+      <UniqueIdentifier>{a52401cc-ab06-4e36-9279-95d1cd7b2602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{db2b16d8-50db-40fc-a2fb-b4194df0bdb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\modules">
+      <UniqueIdentifier>{5b32627f-74dd-4fc7-be60-f3eca03f3378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{d0ccf065-f06b-4f49-b5ba-f6681ffe1025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\modules\seraphine">
+      <UniqueIdentifier>{0324bf96-46c5-4ffe-9c54-406de9746db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\modules\_common">
+      <UniqueIdentifier>{2780973a-15e8-46c9-ac33-e70dfbf9f168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\modules\_common\_example">
+      <UniqueIdentifier>{9f51c40f-8de4-4081-8092-c6d1e03a8ab5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
